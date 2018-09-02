@@ -44,9 +44,9 @@
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
             </li>
-            <!--<li class="nav-item mx-0 mx-lg-1">
+            <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
-            </li> -->
+            </li>
           </ul>
         </div>
       </div>
@@ -142,7 +142,6 @@
             <p class="lead"><strong>For Clients (Organizations)</strong>
               <ul>
                 <li>I specialize in recruiting for bioinformatics and related specialties (it's all I do)</li>
-                <li>I have over 10 years of bioinformatics experience </li> 
                 <li>I handle as little or as much of the candidate search as you want (job descriptions, posting to job boards, candidate sourcing, phone screening, etc.)</li>
                 <li>I have an existing network of qualified candidates that you can hire now</li>
                 <li>I save your organization money by quickly filling vacant positions</li>
@@ -184,17 +183,16 @@
       </div>
     </section>
 
-
-
-    <!-- Contact Section
+    <!-- Contact Section -->
     <section id="contact">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Contact</h2>
         <hr class="star-dark mb-5">
+        <h5 class="font-weight-dark text-center text-secondary mb-0">(response is usually the same business day)</h5>
         <div class="row">
           <div class="col-lg-8 mx-auto">
 
-            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+            <form method="POST" action="https://formspree.io/paul@talentseq.com">
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Name</label>
@@ -211,15 +209,8 @@
               </div>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Phone Number</label>
-                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Message</label>
-                  <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                  <textarea class="form-control" id="message" rows="5" placeholder="What are you looking for?" required="required" data-validation-required-message="Please enter a message."></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
@@ -233,7 +224,7 @@
         </div>
       </div>
     </section>
-    -- >
+
     <!-- Footer -->
     <footer class="footer text-center">
       <div class="container">
